@@ -1,0 +1,8 @@
+- Memory heap and call stack, memory stack
+- callback queue for web API
+- always check if an API is available on a certain browser
+- promises as an object and the event loop
+- microtasks queue in javascript runtime
+- syntactic sugars
+- as many try catches as there are promises
+- task polling and exponential backoff

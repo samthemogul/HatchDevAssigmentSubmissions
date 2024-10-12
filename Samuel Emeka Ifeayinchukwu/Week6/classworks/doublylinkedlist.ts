@@ -77,7 +77,7 @@ export class DoubleLinkedList<T> {
 
     }
 
-    delete(index: number){
+    delete(index: number): boolean{
         if(this.head == null) {
             return false
         } else if(index == -1){
@@ -87,7 +87,7 @@ export class DoubleLinkedList<T> {
                 currentNode = currentNode.next
             }
             currentNode.prev!.next = null
-            return currentNode
+            return !!currentNode
         }else {
             let deleteIndex = 0;
             let currentNode = this.head
@@ -98,7 +98,7 @@ export class DoubleLinkedList<T> {
             if(currentNode.prev !== null){
                 currentNode.prev.next = currentNode.next
             }
-            return currentNode
+            return !!currentNode
         }
         
     }

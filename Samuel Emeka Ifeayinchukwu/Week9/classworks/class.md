@@ -1,0 +1,2 @@
+-- time and space complexities of all the algorithms and their downsides
+-- quick sort with pivot at the end, beginning and middle of the array

@@ -67,7 +67,7 @@ class CircularDLinkedList<T> extends DoubleLinkedList<T> {
     
       }
     
-    delete(index: number) {
+    delete(index: number):boolean {
       // If the list is empty
       if (!this.head) {
         return false;
