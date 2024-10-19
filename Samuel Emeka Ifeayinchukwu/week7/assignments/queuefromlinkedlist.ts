@@ -1,4 +1,4 @@
-import { DoubleLinkedList } from "../../Week6/classworks/doublylinkedlist";
+import { DoubleLinkedList } from "../../Week6/classworks/doublylinkedlist.ts";
 
 interface Queue<T> {
     enqueue(item: T): void;

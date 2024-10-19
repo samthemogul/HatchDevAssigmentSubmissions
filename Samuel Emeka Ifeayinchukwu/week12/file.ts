@@ -1,4 +1,5 @@
 import fs from 'node:fs'
+import os from 'node:os'
 import { Buffer } from 'node:buffer'
 
 const data = Buffer.from('Hello from Hatchdev')
@@ -38,22 +39,4 @@ fs.writeFile('./new1/textfile.txt', data, (err) => {
 
 
 
-// setTimeout(() => {
-//     fs.readFile('./new1/textfile.txt', 'utf8', (err, data) => {
-//         if(err) {
-//             console.log(err)
-//         } else {
-//             console.log(data)
-//             fs.writeFile('./new2/textfile.txt', data, (err) => {
-//                 if(err) {
-//                     console.log(err)
-//                 }
-//             })
-//             fs.writeFile('./new3/textfile.txt', data, (err) => {
-//                 if(err) {
-//                     console.log(err)
-//                 }
-//             })
-//         }
-//     })
-// }, 3000)
+
