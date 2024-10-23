@@ -1,0 +1,20 @@
+{
+  "name": "test-cli",
+  "version": "1.0.0",
+  "description": "Simple node.js command line app",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel Emeka",
+  "license": "ISC",
+  "bin": {
+    "hello": "./bin/index.js",
+    "wbs": "./bin/wbs.js"
+  },
+  "dependencies": {
+    "boxen": "4.0",
+    "chalk": "2.4",
+    "yargs": "13.2"
+  }
+}
